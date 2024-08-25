@@ -35,6 +35,10 @@ body {
   font-family: $font-family-base;
 }
 
+.btn {
+  transition: none !important;
+}
+
 /* --- Typography --- */
 
 @for $i from 1 through 5 {
@@ -648,7 +652,8 @@ main {
 
 .input-focus {
   box-shadow: none;
-  border-color: var(--input-focus-border-color) !important;
+  /*border-color: var(--input-focus-border-color) !important;*/
+  box-shadow: 0 0 4px rgba(15, 179, 255, 0.7);
   background: center !important;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -777,9 +782,11 @@ $btn-mb: 0.5rem;
       padding-left: 1.5rem;
       padding-right: 1.5rem;
 
+
       a.nav-link {
         @include pt-pb(0.6rem);
 
+        border:2px solid transparent;
         display: flex;
         align-items: center;
         border-radius: 0.75rem;
@@ -804,6 +811,7 @@ $btn-mb: 0.5rem;
       &.active {
         .nav-link {
           color: var(--sidebar-active-color);
+          border-color: var(--sidebar-active-border);
           background-color: var(--sidebar-hover-bg);
 
           span {

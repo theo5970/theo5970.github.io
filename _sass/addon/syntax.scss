@@ -51,6 +51,7 @@ html {
   @extend %code-snippet-bg;
 
   overflow: auto;
+  padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 
   @at-root figure#{&} {

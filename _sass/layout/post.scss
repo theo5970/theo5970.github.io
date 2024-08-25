@@ -191,14 +191,14 @@ header {
   }
 } /* .post-navigation */
 
-@media (hover: hover) {
+/*@media (hover: hover) {
   .post-navigation {
     .btn,
     .btn::before {
       transition: all 0.35s ease-in-out;
     }
   }
-}
+}*/
 
 @-webkit-keyframes fade-up {
   from {
