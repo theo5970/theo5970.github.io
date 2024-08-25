@@ -37,7 +37,7 @@ social:
   name: theo5970
   email: theo5970@naver.com # change to your email address
   links:
-    https://github.com/theo5970
+  - https://github.com/theo5970
 
 # Site Verification Settings
 webmaster_verifications:
