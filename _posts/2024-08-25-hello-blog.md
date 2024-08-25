@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 안녕하세요!
+author: theo5970
 date: 2024-08-25 11:33:00 +0900
 category: notice
 tags: first

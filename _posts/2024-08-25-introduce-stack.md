@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[테스트 게시물] 스택!"
+author: theo5970
 date: 2024-08-25 11:40:00 +0900
 category: "자료구조"
 tags: ["C"]
