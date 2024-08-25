@@ -13,6 +13,10 @@ resource_hints:
     links:
       - rel: preconnect
       - rel: dns-prefetch
+  - url: https://cdnjs.cloudflare.com
+    links:
+      - rel: preconnect
+      - rel: dns-prefetch
 
 # Web Fonts
 webfonts: https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap
@@ -20,8 +24,8 @@ webfonts: https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Sour
 # Libraries
 
 toc:
-  css: https://cdn.jsdelivr.net/npm/tocbot@4.29.20/dist/tocbot.min.css
-  js: https://cdn.jsdelivr.net/npm/tocbot@4.29.20/dist/tocbot.min.js
+  css: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.29.0/tocbot.min.css
+  js: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.29.0/tocbot.min.js
 
 fontawesome:
   css: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css
