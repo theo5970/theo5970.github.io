@@ -370,10 +370,10 @@ sup {
   }
 
   &:hover {
+    border-color: var(--card-hovor-bg);
     &::before {
       opacity: 0.3;
     }
-    border-color: var(--card-hovor-bg);
   }
 }
 
