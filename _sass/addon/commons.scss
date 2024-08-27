@@ -731,10 +731,11 @@ $btn-mb: 0.5rem;
       transition: transform 0.5s;
 
       &:hover {
-        transform: rotateZ(720deg);
+        transform: rotateZ(720deg)
       }
     }
   }
+
 
   .profile-wrapper {
     @include mt-mb(2.5rem);
